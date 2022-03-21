@@ -18,7 +18,7 @@ h4 {
 
 .header {
   height: 100px;
-  box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+  box-shadow: 0 2px 5px #0000004d;
   padding: 1rem;
   position: relative;
 }
@@ -93,6 +93,7 @@ main {
   text-align: center;
   justify-content: center;
   padding-top: 3rem;
+  padding-bottom: 1rem;
 }
 
 .titulo__principal {
@@ -133,7 +134,10 @@ main {
   
 
 
+p {
+font-size: larger;
 
+}
 
 
 
