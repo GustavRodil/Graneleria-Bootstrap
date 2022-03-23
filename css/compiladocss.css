@@ -55,6 +55,12 @@ h1, h2, h3 {
 .navegacion .nav__link--activo:hover {
   color: #fff; }
 
+a:link {
+  color: #be18be; }
+
+a:visited {
+  color: orange; }
+
 .grane .titulo__contenedor {
   display: flex;
   flex-direction: column;
@@ -89,3 +95,33 @@ h1, h2, h3 {
     width: auto;
     display: flex;
     justify-content: center; }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    height: auto; }
+  .header__contenedor {
+    flex-direction: column; }
+  .grane__contenedor {
+    flex-direction: column; }
+  .col-4,
+  .col-8 {
+    width: 100%; }
+  .merchandise {
+    width: 100%; }
+  .productos__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .footer__contenedor {
+    flex-direction: column; } }
+
+@media screen and (max-width: 600px) {
+  .nav__lista {
+    flex-wrap: wrap;
+    gap: 20px; }
+  .col-4,
+  .col-8 {
+    width: 100%; }
+  .footer__social-media-wrapper {
+    flex-direction: column; } }

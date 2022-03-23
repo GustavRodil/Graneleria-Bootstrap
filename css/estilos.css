@@ -131,6 +131,13 @@ main {
   height: 100%;
   
 }
+.border {
+  border: 100px solid; color: #23be51;
+  border-radius: 2em;
+}
+iframe {
+background-color: #23be51;
+}
   
 .img__dimention {
   max-width: 100%;
