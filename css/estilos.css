@@ -132,16 +132,27 @@ main {
   
 }
   
-
+.img__dimention {
+  max-width: 100%;
+  height: 100%;
+}
 
 p {
 font-size: larger;
 
 }
 
+.paragraph__color {
+  background-color: rgba(245, 245, 220, 0.521);
+  color: rgba(0, 0, 0, 0.685);
+  
+}
 
-
-
+h5 {
+  color: #23be51;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.527);
+}
 
 .footer__contenedor {
   max-width: 1200px;
