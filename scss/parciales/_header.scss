@@ -1,0 +1,27 @@
+.header {
+  height: 100px;
+box-shadow:0 2px 5px #0000004d;
+padding: 1rem;
+position: relative;
+}
+
+.header__contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  .header__logo, .imglogofoot, .header__logo img {
+    height: 100px;
+    width: 100px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  
+}

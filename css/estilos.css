@@ -16,6 +16,10 @@ h4 {
   font-family: "Redressed", cursive;
 }
 
+.bigicon {
+  font-size: 35px;
+  color: #9a6bc5;
+}
 .header {
   height: 100px;
   box-shadow: 0 2px 5px #0000004d;
@@ -131,6 +135,13 @@ main {
   height: 100%;
   
 }
+.border {
+  border: 100px solid; color: #23be51;
+  border-radius: 2em;
+}
+iframe {
+background-color: #23be51;
+}
   
 .img__dimention {
   max-width: 100%;
@@ -152,6 +163,10 @@ h5 {
   color: #23be51;
   font-weight: bolder;
   background-color: rgba(0, 0, 0, 0.527);
+}
+
+.color-graneleria-principal{
+  color: #9a6bc5;
 }
 
 .footer__contenedor {
