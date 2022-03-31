@@ -131,6 +131,12 @@ main {
   height: 100%;
   
 }
+.color-graneleria-principal{
+  color: #9a6bc5;
+}
+.list-group-item {
+  color: #9a6bc5;
+}
 .border {
   border: 100px solid; color: #23be51;
   border-radius: 2em;
@@ -159,6 +165,17 @@ h5 {
   color: #23be51;
   font-weight: bolder;
   background-color: rgba(0, 0, 0, 0.527);
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #cc39e9;
+}
+
+.header__contenedor--contact {
+  color: #9b2ee4;
+  font-size: 27px;
+  padding: 10px;
 }
 
 .footer__contenedor {
