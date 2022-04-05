@@ -154,6 +154,28 @@ background-color: #23be51;
   height: 100%;
 }
 
+.grid__container__img{
+  width: 100%;
+}
+
+.grid__container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay__title{
+  
+}
+
+.overlay {
+background-color: #9a6bc5;
+height: 100%;
+opacity: 0;
+z-index: index 1;
+transform: translate(0%,-100%);
+transition: 0.5s ease;
+position:relative
+}
+
 p {
 font-size: larger;
 
