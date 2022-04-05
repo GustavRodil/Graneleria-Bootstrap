@@ -40,6 +40,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
     
     <link rel="stylesheet" type="text/css" href="csshake.min.css">
 
@@ -85,11 +89,13 @@
     <main>
       <h1 class="text-center">La vida en la Grane</h1>
 
-    <section class="grane">
+    <section class="grane"> 
       <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2>Es hoy! Es hoy!</h2>
+        <div class="row centrado_div ">
+          <div class="col  overflow-scroll">
+            <h2 class="text-center">Es hoy! Es hoy!</h2>
+            <button type="button" class="btn btn-primary mt-3 mr-5 mb-3" data-toggle="collapse" data-target="#demo">Leer mas</button>
+            <div id="demo" class="collapse">
             <p> En el local 27 está la última incorporación del mercado, La Granelería Coslada. Inaugurada en Julio de 2021 por Cristina y Elisa, de 32 y 30 años respectivamente. 
               El proyecto surgió a raíz de la jubilación de Jose, uno de los charcuteros de la galería, a Elisa le dió pena que se pudiera cerrar el comercio y pensó en comprarlo, pero se le adelantaron. La espinita de abrir algo se quedó clavada y pensó "¿qué podría abrir aquí que le falte al mercado? ¡Pues una tienda de productos a granel!".
               Le comentó la idea a su amiga Cristina y juntas buscaron un local, lo limpiaron a fondo y lo transformaron en una tienda a granel algo distinta de lo que estamos acostumbrados. Especializadas en productos sin gluten, tienen pastas de todo tipo, legumbres variadas, arroces, cereales, productos veganos, cafés tostados al natural, especias, cosmética natural, productos de limpieza aunque están siendo conocidas en el barrio por sus espectaculares y deliciosas infusiones y tés, que hacen que todo el mundo repita y vuelva al local.
@@ -97,21 +103,26 @@
               Ven y tómate un café o un té con ellas, cata de té diaria gratuita, para que os enamoreis de sus tés y su tiendita.
               Estamos en la Plaza del Sol S/N en Coslada, de lunes a viernes de 9 a 14 y de 17 a 20, sábados de 9 a 14.
               </p>
-
-              <img src="../imagenes/teamcosladagrane2.jpg" alt="Team Grane">
-          </div>
-          <div class="col">
-            <h2>Dia de la Juventud</h2>
-
-            <p>HOY ES EL DÍA DE LA JUVENTUD
-              Como jóvenes que somos sabemos lo difícil que lo tiene nuestra generación en varios sentidos.
-              Por eso solo hoy, a todo menor de 35 años tendrá un descuento de un 5% en nuestros productos. Solo tenéis que enseñar el DNI en tienda para que se aplique el descuento.
-              ¡Corre que estamos hoy hasta las 14h!</p>
-
-              <img src="../imagenes/teamcosladagrane.jpg" alt="team grane 2">
+            </div>
+              <img class="imagen" src="../imagenes/teamcosladagrane2.jpg" alt="Team Grane">
           </div>
         </div>
-    </section>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="col overflow-scroll">
+                <h2 class="text-center">Dia de la Juventud</h2>
+                <button type="button" class="btn btn-primary mt-3 mr-5 mb-3" data-toggle="collapse" data-target="#demo">Leer mas</button>
+                <div id="demo" class="collapse">
+                <p>HOY ES EL DÍA DE LA JUVENTUD
+                  Como jóvenes que somos sabemos lo difícil que lo tiene nuestra generación en varios sentidos.
+                  Por eso solo hoy, a todo menor de 35 años tendrá un descuento de un 5% en nuestros productos. Solo tenéis que enseñar el DNI en tienda para que se aplique el descuento.
+                  ¡Corre que estamos hoy hasta las 14h!</p>
+                </div>
+                  <img class="imagen" src="../imagenes/teamcosladagrane.jpg" alt="team grane 2">
+              </div>
+            </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="footer__contenedor">

@@ -116,8 +116,17 @@ main {
   border-style: double;
   border-color: #9a6bc5;
   margin: 0 auto;
+  
 }
 
+div {
+  display: visible;
+}
+.centrado__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .videograneleria {
   height: 100%;
   overflow: hidden;
@@ -153,6 +162,10 @@ font-size: larger;
 
 }
 
+.imagen {
+  border-radius: 10px;
+  border: 5px double black;
+}
 .paragraph__color {
   background-color: rgba(245, 245, 220, 0.521);
   color: rgba(0, 0, 0, 0.685);
