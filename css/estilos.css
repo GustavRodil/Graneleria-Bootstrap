@@ -84,6 +84,16 @@ ul {
   color: #fff;
 }
 
+.nav__item--orden {
+  order: 0; }
+
+/* Menu Lateral */
+.btn-open-sidebar {
+  display: none; }
+
+  .nav__item--oculto {
+    display: none; }
+
 main {
   background-image: url(../imagenes/fondoecofriend2.jpg);
   background-repeat: no-repeat;
@@ -137,6 +147,11 @@ div {
 
 }
 
+.video__grane {
+  border: 5px solid #993CA4;
+  border-radius: 20px 20px 11px 11px;
+}
+
 .videograneleria iframe {
   top: 0;
   left: 0;
@@ -154,15 +169,19 @@ div {
   border: 100px solid; color: #23be51;
   border-radius: 2em;
 }
-iframe {
-background-color: #23be51;
-}
+
   
 .img__dimention {
   max-width: 100%;
   height: 100%;
+  border-color: #993CA4;
+  border-style: dotted;
+  border-radius: 20px;
 }
 
+.carousel {
+border-radius: 20px;
+}
 .grid__container__img{
   width: 100%;
 }
@@ -188,6 +207,11 @@ font-size: larger;
 
 }
 
+.imagen__team{
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: #993CA4;
+}
 .imagen {
   border-radius: 10px;
   border: 5px double black;
@@ -226,6 +250,11 @@ h5 {
 
 }
 
+.gmaps{
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: #993CA4;
+}
 .footer__item {
   display: flex;
   justify-content: center;
@@ -262,6 +291,11 @@ h5 {
     flex-direction: column;
   }
 
+  .imagen__team{
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: #993CA4;
+  }
   .col-4,
   .col-8 {
     width: 100%;
@@ -282,16 +316,58 @@ h5 {
 }
 
 @media screen and (max-width: 600px) {
+   /* Menu lateral */
+   .btn-open-sidebar {
+    display: inline-block;
+    background-color: #9b2ee4;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #fff; }
   .nav__lista {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
+    background-color: #e0e0e0;
+    width: 80%;
+    max-width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    transition: transform 0.5s;
+    z-index: 100; }
+  #sidebar:target {
+    transform: translateX(0); }
+  .nav__item--oculto {
+    display: block; }
+  .header__contenedor {
+    flex-direction: row; }
   .col-4,
   .col-8 {
     width: 100%;
   }
 
+  /* Google maps */
+  .gmaps {
+    overflow: hidden;
+    border-radius: 20px;
+    border-style: dotted;
+    border-color: #993CA4;
+  }
+.imagen__team {
+  max-width: 300px;
+  border-radius: 20px;
+  border-style: dotted;
+  border-color: #993CA4;
+
+}
+  .imagen {
+    max-width: 350px;
+height: 300px;
+    
+  }
 .footer__social-media-wrapper {
 
 flex-direction: column;

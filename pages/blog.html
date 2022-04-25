@@ -53,46 +53,42 @@
   </head>
   <body>
     <header class="header">
-      <!-- Logotipo -->
-      <!-- Menu de Navegacion con enlaces -->
-
       <div class="header__contenedor">
-        <div class="header__logo">
-          <img src="../imagenes/Logo2.jpg" alt="Logo" width="170" height="90" />
-        </div>
-
-        <nav class="navegacion">
-          <ul class="nav__lista">
-            <li class="nav__item">
-              <a class="nav__link" href="../index.html">inicio</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="productos.html">Productos</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="compañia.html">Compañia</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link nav__link--activo" href="blog.html">Blog</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
+          <div class="header__logo">
+              <img src="../imagenes/Logo2.jpg" alt="Logotipo de Graneleria" width="50" height="50">
+          </div>
+          <nav class="navegacion">
+              <a class="btn-open-sidebar" href="#sidebar"><i class="fas fa-bars"></i></a>
+              <ul class="nav__lista" id="sidebar">
+                  <li class="nav__item">
+                      <a class="nav__link" href="./index.html">Inicio</a> 
+                  </li>
+                  <li class="nav__item">
+                      <a class="nav__link" href="../pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav__item">
+                      <a class="nav__link" href="../pages/compañia.html">Compañia</a>
+                  </li>
+                  <li class="nav__item">
+                      <a class="nav__link nav__link--activo" href="../pages/blog.html">Blog</a>
+                  </li>
+                  <li class="nav__item nav__item--orden">
+                      <a class="nav__link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav__item nav__item--oculto"> <!-- Cerrar Sidebar -->
+                      <a class="nav__link btn-close-sidebar" href="#">❌</a>
+                  </li>
+              </ul>
+          </nav>
       </div>
-    </header>
+  </header>
     <main>
       <h1 class="text-center">La vida en la Grane</h1>
 
     <section class="grane"> 
       <div class="container">
         <div class="row centrado_div ">
-          <div class="col  overflow-scroll">
+          <div class="col  overflow-hidden">
             <h2 class="text-center">Es hoy! Es hoy!</h2>
             <button type="button" class="btn btn-primary mt-3 mr-5 mb-3" data-toggle="collapse" data-target="#demo">Leer mas</button>
             <div id="demo" class="collapse">
@@ -104,13 +100,13 @@
               Estamos en la Plaza del Sol S/N en Coslada, de lunes a viernes de 9 a 14 y de 17 a 20, sábados de 9 a 14.
               </p>
             </div>
-              <img class="imagen" src="../imagenes/teamcosladagrane2.jpg" alt="Team Grane">
+              <img class="imagen gmaps" src="../imagenes/teamcosladagrane2.jpg" alt="Team Grane">
           </div>
         </div>
         <div class="container">
           <div class="row">
             <div class="col">
-              <div class="col overflow-scroll">
+              <div class="col overflow-hidden">
                 <h2 class="text-center">Dia de la Juventud</h2>
                 <button type="button" class="btn btn-primary mt-3 mr-5 mb-3" data-toggle="collapse" data-target="#demo">Leer mas</button>
                 <div id="demo" class="collapse">
@@ -119,7 +115,7 @@
                   Por eso solo hoy, a todo menor de 35 años tendrá un descuento de un 5% en nuestros productos. Solo tenéis que enseñar el DNI en tienda para que se aplique el descuento.
                   ¡Corre que estamos hoy hasta las 14h!</p>
                 </div>
-                  <img class="imagen" src="../imagenes/teamcosladagrane.jpg" alt="team grane 2">
+                  <img class="imagen gmaps" src="../imagenes/teamcosladagrane.jpg" alt="team grane 2">
               </div>
             </div>
       </section>

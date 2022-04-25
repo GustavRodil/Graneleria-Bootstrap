@@ -52,38 +52,35 @@
       <!-- Logotipo -->
       <!-- Menu de Navegacion con enlaces -->
 
-    <header class="header">
-      <div class="header__contenedor">
-        <div class="header__logo">
-          <img src="../imagenes/Logo2.jpg" alt="Logo" width="170" height="90" />
+      <header class="header">
+        <div class="header__contenedor">
+            <div class="header__logo">
+                <img src="../imagenes/Logo2.jpg" alt="Logotipo de Graneleria" width="50" height="50">
+            </div>
+            <nav class="navegacion">
+                <a class="btn-open-sidebar" href="#sidebar"><i class="fas fa-bars"></i></a>
+                <ul class="nav__lista" id="sidebar">
+                    <li class="nav__item">
+                        <a class="nav__link" href="../index.html">Inicio</a> 
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./compañia.html">Compañia</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav__item nav__item--orden">
+                        <a class="nav__link nav__link--activo" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav__item nav__item--oculto"> <!-- Cerrar Sidebar -->
+                        <a class="nav__link btn-close-sidebar" href="#">❌</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-
-        <nav class="navegacion">
-          <ul class="nav__lista">
-            <li class="nav__item">
-              <a class="nav__link" href="../index.html">inicio</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="productos.html">Productos</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="compañia.html">Compañia</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="blog.html">Blog</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link nav__link--activo" href="contacto.html"
-                >Contacto</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
     </header>
     <main>
 
@@ -187,9 +184,9 @@
         <div class="container">
           <div class="row justify-content-center align-items-center mt-5 m-0 vh-100 ">
             <div class="col">
-              <iframe class="imagen" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.638351935076!2d-3.564299491889126!3d40.42487143669232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42300cfdfa5ffd%3A0x215cb8193b437a24!2sPlaza%20del%20Sol%2C%2028821%20Coslada%2C%20Madrid!5e0!3m2!1ses!2ses!4v1649193695183!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe class="imagen gmaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.638351935076!2d-3.564299491889126!3d40.42487143669232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42300cfdfa5ffd%3A0x215cb8193b437a24!2sPlaza%20del%20Sol%2C%2028821%20Coslada%2C%20Madrid!5e0!3m2!1ses!2ses!4v1649193695183!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div>
+            <div class="mb-2">
               <h3>
                 La Granelería <br>
 Plaza Sol, S/N, Local 27 <br>

@@ -57,41 +57,35 @@
   </head>
   <body>
     <header class="header">
-      <!-- Logotipo -->
-      <!-- Menu de Navegacion con enlaces -->
-
       <div class="header__contenedor">
-        <div class="header__logo">
-          <img src="../imagenes/Logo2.jpg" alt="Logo" width="170" height="90" />
-        </div>
-
-        <nav class="navegacion">
-          <ul class="nav__lista">
-            <li class="nav__item">
-              <a class="nav__link" href="../index.html">inicio</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link nav__link--activo" href="productos.html"
-                >Productos</a
-              >
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="compañia.html">Compañia</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="blog.html">Blog</a>
-            </li>
-
-            <li class="nav__item">
-              <a class="nav__link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
+          <div class="header__logo">
+              <img src="../imagenes/Logo2.jpg" alt="Logotipo de Graneleria" width="50" height="50">
+          </div>
+          <nav class="navegacion">
+              <a class="btn-open-sidebar" href="#sidebar"><i class="fas fa-bars"></i></a>
+              <ul class="nav__lista" id="sidebar">
+                  <li class="nav__item">
+                      <a class="nav__link" href="./index.html">Inicio</a> 
+                  </li>
+                  <li class="nav__item">
+                      <a class="nav__link nav__link--activo" href="../pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav__item">
+                      <a class="nav__link" href="../pages/compañia.html">Compañia</a>
+                  </li>
+                  <li class="nav__item">
+                      <a class="nav__link" href="../pages/blog.html">Blog</a>
+                  </li>
+                  <li class="nav__item nav__item--orden">
+                      <a class="nav__link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav__item nav__item--oculto"> <!-- Cerrar Sidebar -->
+                      <a class="nav__link btn-close-sidebar" href="#">❌</a>
+                  </li>
+              </ul>
+          </nav>
       </div>
-    </header>
+  </header>
     <main>
       <div class="titulo__container">
         <h1 class="text-center animate__animated animate__tada">
