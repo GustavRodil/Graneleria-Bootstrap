@@ -65,7 +65,7 @@
               <a class="btn-open-sidebar" href="#sidebar"><i class="fas fa-bars"></i></a>
               <ul class="nav__lista" id="sidebar">
                   <li class="nav__item">
-                      <a class="nav__link" href="./index.html">Inicio</a> 
+                      <a class="nav__link" href="../index.html">Inicio</a> 
                   </li>
                   <li class="nav__item">
                       <a class="nav__link nav__link--activo" href="../pages/productos.html">Productos</a>
@@ -94,79 +94,13 @@
       </div>
       <section class="grane">
         <div class="container">
-          <div class="row">
+          <div  class="row">
             <div class="col-12 col-md-8">
-              <div class="row">
-                <div class="col-12 col-md-6 mb-5">
-                  <div class="card" style="width: 18rem">
-                    <img
-                      src="../imagenes/chia.jpg"
-                      class="card-img-top"
-                      alt="Chia"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title text-center mr-3">Chia</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                  </div>
+                <div id="cajaProductos" class="row">
                 </div>
-                <div class="col-12 col-md-6">
-                  <div class="card" style="width: 18rem">
-                    <img
-                      src="../imagenes/copos de avena.jpg"
-                      class="card-img-top"
-                      alt="Avena"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Copos de Avena</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <div class="card" style="width: 18rem">
-                    <img
-                      src="../imagenes/Caraotas.jpg"
-                      class="card-img-top"
-                      alt="Judias Negras"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Alubias Negras</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-12 col-md-6">
-                  <div class="card" style="width: 18rem">
-                    <img
-                      src="../imagenes/Alubia Pinta.jpg"
-                      class="card-img-top"
-                      alt="Alubia Pinta"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Alubia Pinta</h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Comprar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          
             </div>
+          
             <div class="col-12 col-md-4">
               <h4
                 class="d-flex justify-content-between align-items-center mb-3"
@@ -175,35 +109,14 @@
                   <strong>Carrito</strong>
                 </span>
               </h4>
+
+              <ul id="cartItems" class="list-group">
+                
+              </ul>
               <ul class="list-group mb-3">
-                <li
-                  class="list-group-item d-flex justify-content-between lh-sm"
-                >
-                  <div>
-                    <h6 class="my-0">Chia</h6>
-                    <small class="text-muted">100gr</small>
-                  </div>
-                  <span class="text-muted">3.5€</span>
-                </li>
-                <li
-                  class="list-group-item d-flex justify-content-between lh-sm"
-                >
-                  <div>
-                    <h6 class="my-0">Copos de Avena</h6>
-                    <small class="text-muted">1kg</small>
-                  </div>
-                  <span class="text-muted">4€</span>
-                </li>
-                <li
-                  class="list-group-item d-flex justify-content-between lh-sm"
-                >
-                  <div>
-                    <h6 class="my-0">Alubia Pinta</h6>
-                    <small class="text-muted">1kg</small>
-                  </div>
-                  <span class="text-muted">2€</span>
-                </li>
-                <li
+                
+                
+                <!--<li
                   class="list-group-item d-flex justify-content-between bg-light"
                 >
                   <div class="text-success">
@@ -211,10 +124,10 @@
                     <small>GoGrane2022</small>
                   </div>
                   <span class="text-success">-2</span>
-                </li>
+                </li>-->
                 <li class="list-group-item d-flex justify-content-between">
                   <span>Total (EUROS)</span>
-                  <strong>7,5€</strong>
+                  <div id="totalEuros" style="display: inline-block;"><strong ></strong></div>
                 </li>
               </ul>
               <form class="card p-2">
@@ -228,6 +141,11 @@
                     Aplicar
                   </button>
                 </div>
+              </form>
+              
+            </div>
+          </div>
+
       <div class="footer__contenedor">
         <div class="footer__item">
           <img
@@ -276,5 +194,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="../JS/stock.js"></script>
   </body>
 </html>
